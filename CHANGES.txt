@@ -1,0 +1,13 @@
+
+GnuDIP ELGG V1.8 Plugin to integrate a GnuDIP dynamic DNS service
+
+V1.0 - 17.01.2014
+This is basic functionality:
+Registration of user/hostname and management via webinterface
+
+ToDo
+- add option to delete user/hostname from within GnuDIP group
+- add option to mail forgotten password/reset password to user?
+
+Known Issues
+-none-
