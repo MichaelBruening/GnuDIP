@@ -1,8 +1,7 @@
 <?php
-//require_once(dirname(dirname(__FILE__)) . "/elgg/engine/start.php");
+$gnudipurl = elgg_get_plugin_setting('gnudipurl', gnudip);
 $topbar = elgg_view('page/elements/topbar', $vars);
 $body = elgg_view('page/elements/body', $vars);
-$footer = elgg_view('page/elements/footer', $vars);
 
 // Set the content type
 header("Content-type: text/html; charset=UTF-8");
@@ -21,13 +20,8 @@ header("Content-type: text/html; charset=UTF-8");
 </div>
 
 <!-- external page embed -->
-<iframe src="http://me.not-me.me/gnudip/cgi-bin/gnudip.cgi" style='position:relative;top:0px;left:0px;width:100%;height:700px;'/>
+<iframe src="<?php echo $gnudipurl; ?>" style='position:relative;top:0px;left:0px;width:100%;height:700px;'/>
 
-<div class="elgg-page-footer">
-<div class="elgg-inner">
-<?php echo $footer; ?>
-</div>
-</div>
 </div>
 
 </body>

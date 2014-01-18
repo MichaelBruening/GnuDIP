@@ -3,18 +3,12 @@ $gnudipurl = $vars['entity']->gnudipurl;
 $gnudipsrv = $vars['entity']->gnudipsrv;
 $gnudipusr = $vars['entity']->gnudipusr;
 $gnudipbin = $vars['entity']->gnudipbin;
-$gnudipdom = $vars['entity']->gnudipdom;
 ?>
 <?php
 echo "<p>" . elgg_echo('gnudip:set:gnudipurl');
 echo elgg_view('input/text', array(
     'name'  => 'params[gnudipurl]',
     'value' => $gnudipurl,
-));
-echo "<p>" . elgg_echo('gnudip:set:gnudipdom');
-echo elgg_view('input/text', array(
-    'name'  => 'params[gnudipdom]',
-    'value' => $gnudipdom,
 ));
 echo "<p>" . elgg_echo('gnudip:set:gnudipusr');
 echo elgg_view('input/text', array(
