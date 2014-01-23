@@ -10,6 +10,9 @@ The list of available domains is now read from GnuDIP service,
 not defined via plugin-settings any more.
 Added spanish language file
 
+V1.2 - 23.01.2014
+A non-default portnumber (server:port) can be set for remote ssh access.
+
 ToDo
 - add option to delete user/hostname from within GnuDIP group?
 - add option to mail forgotten password/reset password to user?

@@ -30,6 +30,9 @@ switch ($RC) {
 	case '3':
 	   $msg=elgg_echo('gnudip:error:password');
 	   break;
+	case '4':
+	   $msg=elgg_echo('gnudip:error:port');
+	   break;
 	default:
 	   $msg=elgg_echo('gnudip:error:unknown');
 	   break;
